@@ -48,7 +48,7 @@ public class Logging {
               Date date = new Date() ;
       		SimpleDateFormat dateFormatFic = new SimpleDateFormat("yyyy-MM-dd") ;
       		SimpleDateFormat dateFormatLigneFic = new SimpleDateFormat("yyyy-MM-dd HH-mm-ss") ;
-      		File file = new File("C:\\Taxation\\Erreur.Log\\"+dateFormatFic.format(date) + ".txt") ; 
+      		File file = new File("C:\\Erreur.Log\\"+dateFormatFic.format(date) + ".txt") ; 
       		this.console+="["+dateFormatLigneFic.format(date)+"] "+log+"\n";
 
       		boolean b;
