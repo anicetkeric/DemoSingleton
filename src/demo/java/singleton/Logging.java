@@ -21,7 +21,8 @@ public class Logging {
               console = new String();
       }
 	
-   // Static method used as pseudo-constructor (use of the keyword "synchronized" for the multithreaded).
+   // Static method used as pseudo-constructor 
+	//(use of the keyword "synchronized" for the multithreaded).
       public static synchronized Logging getInstance()
       {              
               //first check if instance is available
