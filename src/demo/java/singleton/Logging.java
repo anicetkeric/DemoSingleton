@@ -35,9 +35,6 @@ public class Logging {
                   }
               }
               return uniqueInstance;
-              
-              
-              
       }
       
       // A method to add a log message.
