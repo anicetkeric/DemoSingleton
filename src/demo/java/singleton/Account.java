@@ -2,7 +2,7 @@ package demo.java.singleton;
 
 public class Account {
 
-    private int numero;// Account number.
+    private int numero;// Account number id.
     private double solde;
     
   
@@ -18,7 +18,7 @@ public class Account {
             if(depot>0.0)
             {       
                     solde+=depot;// The sum deposited is added to the balance.
-                    Logging.getInstance().addLog("Add "+depot+"€ to the account "+numero+".");
+                    Logging.getInstance().addLog("Add "+depot+"â‚¬ to the account "+numero+".");
             }
             else
             {
@@ -34,7 +34,7 @@ public class Account {
                     if(solde>=retrait)
                     {
                             solde-=retrait;
-                            Logging.getInstance().addLog("Withdrawal of "+retrait+"€ from the account "+numero+".");
+                            Logging.getInstance().addLog("Withdrawal of "+retrait+"â‚¬ from the account "+numero+".");
                     }
                     else
                     {
